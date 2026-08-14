@@ -1,0 +1,21 @@
+<idea-plugin>
+    <id>org.intellij.sdk.passwordSafeApiKeys</id>
+    <name>SDK: Persisting API Keys in Password Safe Sample</name>
+
+    <vendor url="https://plugins.jetbrains.com">IntelliJ Platform SDK</vendor>
+
+    <description><![CDATA[
+        Demonstrates how to persist an API key in the <code>PasswordSafe</code>.<br>
+        Configures a <b>Settings | Credentials</b> dialog with a secure password field.
+        ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <applicationConfigurable instance="org.intellij.sdk.passwordSafeApiKeys.CredentialsConfigurable"
+                                 id="org.intellij.sdk.passwordSafeApiKeys.CredentialsConfigurable"
+                                 displayName="Credentials"
+                                 parentId="tools"
+        />
+    </extensions>
+</idea-plugin>
