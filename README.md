@@ -23,6 +23,16 @@ Generally, code samples target the _Latest GA_ release and the previous two majo
 
 Code samples use the [IntelliJ Platform SDK][docs] and [Gradle][docs:gradle] as their build system.
 
+## Code Samples
+
+Please see [Code Samples][docs:code-samples] topic on how to import and run code samples.
+
+In the following table, you may find all available samples provided in the separated directories as stand-alone projects available for running with the Gradle `runIde` task.
+
+| Code Sample                                     | Description                                                                                                                                                       |
+|-------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Persisting API Keys](./password_safe_api_keys) | Persisting API key in the `PasswordSafe` along with a Settings pane UI.
+
 [gh:workflow-code-samples]: https://github.com/JetBrains/intellij-sdk-docs/actions/workflows/code-samples.yml
 [gh:template]: https://github.com/JetBrains/intellij-platform-plugin-template
 
