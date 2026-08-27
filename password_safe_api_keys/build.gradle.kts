@@ -7,6 +7,6 @@ plugins {
 
 dependencies {
     intellijPlatform {
-        intellijIdea("2026.2.1")
+        intellijIdea("2025.3.5")
     }
 }
