@@ -1,5 +1,3 @@
-import org.jetbrains.intellij.platform.gradle.TestFrameworkType
-
 plugins {
     id("org.jetbrains.kotlin.jvm")
     id("org.jetbrains.intellij.platform")
@@ -7,6 +5,6 @@ plugins {
 
 dependencies {
     intellijPlatform {
-        intellijIdea("2025.3.5")
+        intellijIdea("2026.2.1")
     }
 }
