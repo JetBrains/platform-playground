@@ -2,3 +2,4 @@
 rootProject.name = "IntelliJ Platform SDK Playground"
 
 includeBuild("../password_safe_api_keys")
+includeBuild("../persistence_properties_component")
