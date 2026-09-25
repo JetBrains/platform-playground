@@ -1,0 +1,33 @@
+<idea-plugin>
+    <id>org.intellij.sdk.persistence</id>
+    <name>SDK: Persistence Sample</name>
+    <vendor url="https://plugins.jetbrains.com">IntelliJ Platform SDK</vendor>
+
+    <description><![CDATA[
+        <p>
+        Demonstrates how to persist a primitive value
+        in the <code>PropertiesComponent</code> across IDE restarts.
+        </p>
+        <p>
+        Additionally, show a Notification balloon with the
+        persisted value.
+        </p>
+        ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <actions>
+        <action
+                id="org.intellij.sdk.persistence.EnjoyCoffeeAction"
+                class="org.intellij.sdk.persistence.EnjoyCoffeeAction"
+                text="Enjoy Coffee"
+                description="Enjoy a cup of coffee">
+            <add-to-group group-id="ToolsMenu" />
+        </action>
+    </actions>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <notificationGroup id="Coffee"
+                           displayType="BALLOON" />
+    </extensions>
+</idea-plugin>

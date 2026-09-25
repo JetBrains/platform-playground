@@ -29,9 +29,10 @@ Please see [Code Samples][docs:code-samples] topic on how to import and run code
 
 In the following table, you may find all available samples provided in the separated directories as stand-alone projects available for running with the Gradle `runIde` task.
 
-| Code Sample                                     | Description                                                                                                                                                       |
-|-------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Persisting API Keys](./password_safe_api_keys) | Persisting API key in the `PasswordSafe` along with a Settings pane UI.
+| Code Sample                                                                     | Description                                                                                                         |
+|---------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| [Persisting API Keys](./password_safe_api_keys)                                 | Persisting API key in the `PasswordSafe` along with a Settings pane UI.                                             |
+| [Persisting State with PropertiesComponent](./persistence_properties_component) | Persisting simple scalar values across IDE restarts using `PropertiesComponent`.   |
 
 [gh:workflow-code-samples]: https://github.com/JetBrains/intellij-sdk-docs/actions/workflows/code-samples.yml
 [gh:template]: https://github.com/JetBrains/intellij-platform-plugin-template
